@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Data Mahasiswa</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body { min-height: 100vh; }
+    .sidenav {
+      min-width: 200px;
+      height: 100vh;
+      background-color: #f8f9fa;
+      padding-top: 1rem;
+      position: fixed;
+    }
+    .main-content {
+      margin-left: 200px;
+      padding: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="sidenav border-end">
+    <h5 class="text-center">Menu</h5>
+    <ul class="nav flex-column px-3">
+      <li class="nav-item">
+        <a class="nav-link" href="/?menu=home">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/?menu=dosen">Dosen Wali</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="/?menu=mahasiswa">Mahasiswa</a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="main-content">
+    <h2 class="mb-4">Data Mahasiswa</h2>
+    <table class="table table-bordered table-striped">
+      <thead class="table-dark">
+        <tr>
+          <th>NIM</th>
+          <th>Nama</th>
+          <th>Fakultas</th>
+          <th>Jurusan</th>
+          <th>Angkatan</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>20210001</td>
+          <td>Rina Marlina</td>
+          <td>Teknik</td>
+          <td>Informatika</td>
+          <td>2021</td>
+          <td>rina.marlina@student.univ.ac.id</td>
+        </tr>
+        <tr>
+          <td>20200045</td>
+          <td>Agus Santoso</td>
+          <td>Ekonomi</td>
+          <td>Akuntansi</td>
+          <td>2020</td>
+          <td>agus.santoso@student.univ.ac.id</td>
+        </tr>
+        <tr>
+          <td>20190123</td>
+          <td>Lisa Anggraini</td>
+          <td>Sastra</td>
+          <td>Sastra Inggris</td>
+          <td>2019</td>
+          <td>lisa.anggraini@student.univ.ac.id</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</body>
+</html>
